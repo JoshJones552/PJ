@@ -1,4 +1,4 @@
-/* Colors used on every page */
+/* colors used on pages*/
 :root {
   --background: #f5f5f5;
   --text: #222222;
@@ -7,7 +7,7 @@
   --light-orange: #fff0dc;
 }
 
-/* Basic text and spacing */
+/* basic text & spacing */
 * {
   box-sizing: border-box;
 }

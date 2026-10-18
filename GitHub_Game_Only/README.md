@@ -14,11 +14,7 @@ Five connected pages
 Blue and orange boxes
 Evidence filters made with radio buttons and CSS
 A guess field and an ending reveal
-Phone and desktop layouts
+Desktop layout/ mobile(barely)
 Keyboard focus and reduced motion support
 
-The guess is not saved or automatically checked
-
-## AI help
-
-AI helped with planning, starter code, revisions, and browser checks
+The guesses are not saved or automatically checked
