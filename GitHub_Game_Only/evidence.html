@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A short campus mystery. Compare the suspects, check the clues, and find the missing trophy.">
+    <title>
+      Evidence Archive | The Missing Trophy
+    </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      Skip to content
+    </a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          The Missing Trophy
+          <span>
+            A campus mystery
+          </span>
+        </a>
+        <nav aria-label="Main navigation">
+          <ul>
+            <li>
+              <a href="index.html">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="case-board.html">
+                Case Board
+              </a>
+            </li>
+            <li>
+              <a href="suspects.html">
+                Suspects
+              </a>
+            </li>
+            <li>
+              <a href="evidence.html" aria-current="page">
+                Evidence
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="container" tabindex="-1">
+      <section class="page-heading" aria-labelledby="evidence-title">
+        <p class="eyebrow">
+          CASE 001 / COLLECTED CLUES
+        </p>
+        <h1 id="evidence-title">
+          Evidence Archive
+        </h1>
+        <p class="lead">
+          Three pieces of evidence are available. Use the categories to look closer at each clue.
+        </p>
+      </section>
+      <!-- Inputs and the grid share a parent so CSS sibling selectors can filter cards -->
+      <fieldset class="evidence-filters">
+        <legend>
+          Filter evidence
+        </legend>
+        <input type="radio" name="category" id="all" checked>
+        <label for="all">
+          All
+        </label>
+        <input type="radio" name="category" id="messages">
+        <label for="messages">
+          Messages
+        </label>
+        <input type="radio" name="category" id="photo">
+        <label for="photo">
+          Photo
+        </label>
+        <input type="radio" name="category" id="note">
+        <label for="note">
+          Note
+        </label>
+        <div class="card-grid evidence-grid">
+          <article class="card clue-card" data-category="message">
+            <p class="eyebrow">
+              EVIDENCE 01 / MESSAGE
+            </p>
+            <h2>
+              Cleaning message
+            </h2>
+            <p class="status">
+              Available
+            </p>
+            <blockquote>
+              “Please clear the display area before the club event. We need to clean the table and the floor around it.”
+            </blockquote>
+            <p class="detail">
+              Someone had a reason to move things off the table.
+            </p>
+          </article>
+          <article class="card clue-card" data-category="photo">
+            <p class="eyebrow">
+              EVIDENCE 02 / PHOTO RECORD
+            </p>
+            <h2>
+              Box photograph
+            </h2>
+            <p class="status">
+              Available
+            </p>
+            <p>
+              Casey's photograph shows Riley carrying a box away from the display table toward the storage room.
+            </p>
+            <p class="detail">
+              This is a written description of the photograph in the case file.
+            </p>
+          </article>
+          <article class="card clue-card" data-category="note">
+            <p class="eyebrow">
+              EVIDENCE 03 / NOTE
+            </p>
+            <h2>
+              Storage note
+            </h2>
+            <p class="status">
+              Available
+            </p>
+            <blockquote>
+              “Club trophy on shelf B. Keep it here until the display area is ready.”
+            </blockquote>
+            <p class="detail">
+              The note gives a specific place to check.
+            </p>
+          </article>
+        </div>
+      </fieldset>
+      <div class="page-next">
+        <p>
+          Got a theory? Head back to the board.
+        </p>
+        <a class="button" href="case-board.html">
+          Return to Case Board
+        </a>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <p>
+        The Missing Trophy
+        <span>
+          Case 001
+        </span>
+      </p>
+      <a href="team.html">
+        About
+      </a>
+    </footer>
+  </body>
+</html>
